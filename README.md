@@ -1,12 +1,14 @@
-### 说明：
-微信小程序：实现一个移动端商城
+## 微信小程序实现移动端商城
+### 项目说明：
+微信小程序：实现一个移动端商城  
+
 [数据来源：环球小镇（微信公众号：环球小镇），特此感谢]
 
 ### 目录结构：
 - images — 存放项目图片
 - pages — 存放项目页面相关文件
-- style — 存放独立wxcss文件，import引入
-- utils — 存放utils文件，require引入
+- style — 存放独立wxcss样式文件，可import引入
+- utils — 存放utils文件，可require引入
 
 ### 项目截图:
 <img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-01.png" width="320px">
