@@ -11,7 +11,6 @@ Page( {
 
   //事件处理函数
   swiperchange: function(e) {
-    //FIXME: 当前页码
     //console.log(e.detail.current)
   },
 
