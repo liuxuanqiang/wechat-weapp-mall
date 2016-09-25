@@ -23,4 +23,4 @@
 微信web开发者工具 v0.9.092300
 
 ### 项目地址：
-* [https://github.com/liuxuanqiang/wechat-weapp-mall](https://github.com/liuxuanqiang/wechat-weapp-mall) 
+https://github.com/liuxuanqiang/wechat-weapp-mall
