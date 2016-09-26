@@ -16,7 +16,7 @@
   border-radius: 50%;
 }
 .userinfo-nickname {
-  color: #fff;
+  color: #000;
 }
 .weui_cell{
     position: relative;
