@@ -1,40 +1,18 @@
 //获取应用实例
 var app = getApp()
-<<<<<<< HEAD
 Page({
     data: {
         indicatorDots: true,
         vertical: false,
         autoplay: true,
         interval: 3000,
-        duration: 1200,
+        duration: 1000,
     },
 
     //事件处理函数
-    bindViewTap: function() {
-        wx.navigateTo({
-            url: '../logs/logs'
-        })
-    },
     swiperchange: function(e) {
-        //FIXME: 当前页码
         //console.log(e.detail.current)
     },
-=======
-Page( {
-  data: {
-    indicatorDots: true,
-    vertical: false,
-    autoplay: true,
-    interval: 3000,
-    duration: 1000,
-  },
-
-  //事件处理函数
-  swiperchange: function(e) {
-    //console.log(e.detail.current)
-  },
->>>>>>> origin/master
 
     onLoad: function() {
         console.log('onLoad')

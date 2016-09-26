@@ -11,8 +11,7 @@
 - utils — 存放utils文件，可require引入
 
 ### 项目截图:
-<<<<<<< HEAD
-<div>
+
     <img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-01.png" width="320px" style="display:inline;">
     
     <img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-05.png" width="320px" style="display:inline;">
@@ -22,23 +21,10 @@
     <img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-03.png" width="320px" style="display:inline;">
 
     <img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-04.png" width="320px" style="display:inline;">
-</div>
-=======
-<img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-01.png" width="320px">
-
-<img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-02.png" width="320px">
-
-<img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-03.png" width="320px">
-
-<img src="https://github.com/liuxuanqiang/wechat-weapp-mall/blob/master/images/screenshots/screenshorts-04.png" width="320px">
->>>>>>> origin/master
 
 ### 开发环境：
 微信web开发者工具 v0.9.092300
 
 ### 项目地址：
-<<<<<<< HEAD
-* [https://github.com/liuxuanqiang/wechat-weapp-mall](https://github.com/liuxuanqiang/wechat-weapp-mall) 
-=======
 https://github.com/liuxuanqiang/wechat-weapp-mall
->>>>>>> origin/master
+
