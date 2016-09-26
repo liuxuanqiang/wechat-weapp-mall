@@ -34,10 +34,12 @@
     <view class="choice_box">
         <view class="choice_list">
             <block wx:for="{{choiceItems}}">
-                <view class="choice_item">
-                    <image src="{{item.goodspics}}"/>
-                    <view class="title">{{item.title}}</view>
-                </view>
+                <navigator url="../details/index?id={{item.id}}">
+                    <view class="choice_item">
+                        <image src="{{item.goodspics}}"/>
+                        <view class="title">{{item.title}}</view>
+                    </view>
+                </navigator>
             </block>
         </view>
     </view>
