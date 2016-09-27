@@ -44,4 +44,8 @@
         </view>
     </view>
 
+    <loading hidden="{{loadingHidden}}">
+        加载中...
+    </loading>
+
 </view>

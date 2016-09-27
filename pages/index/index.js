@@ -7,6 +7,7 @@ Page({
         autoplay: true,
         interval: 3000,
         duration: 1000,
+        loadingHidden: false  // loading
     },
 
     //事件处理函数
@@ -49,7 +50,12 @@ Page({
             },
             success: function(res) {
                 //console.log(res.data.data)
-                that.data.venuesItems = res.data.data
+                that.data.venuesItems = res.data.data;
+                setTimeout(function () {
+                    that.setData({
+                        loadingHidden: true
+                    })
+                }, 1500)
             }
         })
 
@@ -63,7 +69,12 @@ Page({
             },
             success: function(res) {
                 //console.log(res.data.data.dataList)
-                that.data.choiceItems = res.data.data.dataList
+                that.data.choiceItems = res.data.data.dataList;
+                setTimeout(function () {
+                    that.setData({
+                        loadingHidden: true
+                    })
+                }, 1500)
             }
         })
 
