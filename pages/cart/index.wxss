@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 480px;
+  height: 100%;
   align-items: center;/*垂直居中*/
   justify-content: center;/*水平居中*/
   background-color: #F2f2f2;
