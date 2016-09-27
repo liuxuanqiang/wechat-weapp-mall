@@ -1,3 +1,19 @@
 <view class="container">
-  {{content}}
+  <view class="nav_left">
+    <block wx:for="{{navLeftItems}}">
+      <view class="nav_left_items {{curNav == item.id ? 'active' : ''}}" bindtap="switchRightTab" data-index="{{index}}" data-id="{{item.id}}">{{item.tree.desc}}</view>
+    </block>
+  </view>
+  <view class="nav_right">
+    <view wx:if="{{navRightItems[curIndex].tree.nodes[1].tree.nodes}}">
+      <block wx:for="{{navRightItems[curIndex].tree.nodes[1].tree.nodes}}">
+        <view class="nav_right_items">
+          <image src="{{item.tree.logo}}"></image>
+          <text wx:if="{{item.tree.desc}}">{{item.tree.desc}}</text>
+          <text wx:else>{{item.tree.desc2}}</text>
+        </view>
+      </block>
+    </view>
+    <view wx:else>暂无数据</view>
+  </view>
 </view>
