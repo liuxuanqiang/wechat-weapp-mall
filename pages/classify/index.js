@@ -6,7 +6,7 @@ Page({
         navRightItems: [],
         isActive: false,
         curNav: 1,
-		curIndex: 0,
+		curIndex: 0
     },
     onLoad: function() {
 
