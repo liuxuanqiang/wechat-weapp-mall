@@ -5,47 +5,14 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="info_list">
-    <view class="weui_cell">
-        <view class="weui_cell_hd"><image src="../../images/iconfont-dingdan.png"></image></view>
-        <view class="weui_cell_bd">
-            <view class="weui_cell_bd_p"> 我的订单 </view>
+    <block wx:for="{{userListInfo}}">
+        <view class="weui_cell">
+            <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p"> {{item.text}} </view>
+            </view>
+            <view class="with_arrow"></view>
         </view>
-        <view class="with_arrow"> <image src="../../images/icon-arrowdown.png"></image> </view>
-    </view>
-    <view class="weui_cell">
-        <view class="weui_cell_hd"><image src="../../images/iconfont-card.png"></image></view>
-        <view class="weui_cell_bd">
-            <view class="weui_cell_bd_p"> 我的代金券 </view>
-        </view>
-        <view class="with_arrow"> <image src="../../images/icon-arrowdown.png"></image> </view>
-    </view>
-    <view class="weui_cell">
-        <view class="weui_cell_hd"><image src="../../images/iconfont-icontuan.png"></image></view>
-        <view class="weui_cell_bd">
-            <view class="weui_cell_bd_p"> 我的拼团 </view>
-        </view>
-        <view class="with_arrow"> <image src="../../images/icon-arrowdown.png"></image> </view>
-    </view>
-    <view class="weui_cell">
-        <view class="weui_cell_hd"><image src="../../images/iconfont-shouhuodizhi.png"></image></view>
-        <view class="weui_cell_bd">
-            <view class="weui_cell_bd_p"> 收货地址管理 </view>
-        </view>
-        <view class="with_arrow"> <image src="../../images/icon-arrowdown.png"></image> </view>
-    </view>
-    <view class="weui_cell">
-        <view class="weui_cell_hd"><image src="../../images/iconfont-kefu.png"></image></view>
-        <view class="weui_cell_bd">
-            <view class="weui_cell_bd_p"> 联系客服 </view>
-        </view>
-        <view class="with_arrow"> <image src="../../images/icon-arrowdown.png"></image> </view>
-    </view>
-    <view class="weui_cell">
-        <view class="weui_cell_hd"><image src="../../images/iconfont-help.png"></image></view>
-        <view class="weui_cell_bd">
-            <view class="weui_cell_bd_p"> 常见问题 </view>
-        </view>
-        <view class="with_arrow"> <image src="../../images/icon-arrowdown.png"></image> </view>
-    </view>
+    </block>
   </view>
 </view>
