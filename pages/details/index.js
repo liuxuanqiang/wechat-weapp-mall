@@ -1,4 +1,3 @@
-//获取应用实例
 var app = getApp()
 Page({
     data: {
@@ -35,7 +34,9 @@ Page({
                         "picurl": goodspicsArr[i]
                     });
                 }
-                that.data.goodsPicsInfo = goodsPicsInfo;
+                that.setData({
+                    goodsPicsInfo: goodsPicsInfo
+                })
             }
         })
 

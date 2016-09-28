@@ -35,8 +35,9 @@ Page({
                 'Accept': 'application/json'
             },
             success: function(res) {
-                //console.log(res.data)
-                that.data.images = res.data
+                that.setData({
+                    images: res.data
+                })
             }
         })
 
@@ -49,8 +50,9 @@ Page({
                 'Accept': 'application/json'
             },
             success: function(res) {
-                //console.log(res.data.data)
-                that.data.venuesItems = res.data.data;
+                that.setData({
+                    venuesItems: res.data.data
+                })
                 setTimeout(function () {
                     that.setData({
                         loadingHidden: true
@@ -68,8 +70,9 @@ Page({
                 'Accept': 'application/json'
             },
             success: function(res) {
-                //console.log(res.data.data.dataList)
-                that.data.choiceItems = res.data.data.dataList;
+                that.setData({
+                    choiceItems: res.data.data.dataList
+                })
                 setTimeout(function () {
                     that.setData({
                         loadingHidden: true

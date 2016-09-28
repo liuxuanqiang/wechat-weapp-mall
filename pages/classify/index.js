@@ -1,10 +1,8 @@
 var app = getApp()
 Page({
     data: {
-        content: '这是分类页面',
         navLeftItems: [],
         navRightItems: [],
-        isActive: false,
         curNav: 1,
 		curIndex: 0
     },
@@ -20,9 +18,10 @@ Page({
                 'Accept': 'application/json'
             },
             success: function(res) {
-                //console.log(res.data)
-                that.data.navLeftItems = res.data;
-                that.data.navRightItems = res.data;
+                that.setData({
+                    navLeftItems: res.data,
+                    navRightItems: res.data
+                })
             }
         })
     },
