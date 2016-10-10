@@ -20,7 +20,9 @@
         <view class="venues_list">
             <block wx:for="{{venuesItems}}">
                 <view class="venues_item">
-                    <image src="{{item.smallpic}}"/>
+                    <navigator url="../brand/index?id={{item.id}}">
+                        <image src="{{item.smallpic}}"/>
+                    </navigator>
                 </view>
             </block>
         </view>

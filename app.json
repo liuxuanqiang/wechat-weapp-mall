@@ -4,7 +4,9 @@
     "pages/classify/index",
     "pages/cart/index",
     "pages/my/index",
-    "pages/details/index"
+    "pages/details/index",
+    "pages/brand/index",
+    "pages/list/index"
   ],
   "window":{
     "backgroundTextStyle":"white",
